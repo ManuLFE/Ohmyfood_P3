@@ -1,0 +1,338 @@
+
+/* Menu Header */
+
+.header {
+    height: 65px;
+    min-width: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header > a > i {
+    font-size: 25px;
+    position: relative;
+    left: -100%;
+    color: black;
+}
+
+.logo-header img{
+    max-height: 35px;
+}
+
+/* Menu Image */
+
+.menu-image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    max-width: 768px;
+    max-height: 400px;
+    margin: 0 auto;
+}
+
+
+/* Menu Container */
+.full-menu-card-container {
+    position: relative;
+    top: -100px;
+    margin-bottom: -100px;
+}
+
+.menu-container {
+    width: 100%;
+    max-width: 768px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    padding: 40px 20px;
+    border-radius: 50px 50px 0 0;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.2);
+
+}
+
+.menu-title-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-title {
+    font-family: 'Shrikhand', cursive;
+    font-size: 25px;
+}
+
+#svgmenu {
+    width: 30px;
+}
+
+/* Menu Details */
+/* First Course */
+
+.menu-details-container {
+    width: 100%;
+    max-width: 768px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+
+.menu-first-course {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+    padding-bottom: 50px;
+}
+
+.menu-subtitle {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    position: relative;
+}
+
+.menu-subtitle:before {
+    content : "";
+    position: absolute;
+    left    : 0;
+    bottom  : -4px;
+    height  : 4px;
+    width   : 30px;
+    border-bottom: 3px solid #99e2d0;
+  }
+
+.menu-item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-left: 10px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 1vmax;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.2);
+}
+
+.menu-text {
+    overflow: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    flex: 1;
+    gap: 5px;
+}
+
+.menu-item-title {
+    font-size: 16;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.menu-item-details {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 300;
+}
+
+.menu-text .menu-item-title, .menu-text .menu-item-details {
+    margin: 0;
+}
+
+.menu-price {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 13px 10px 0px 10px;
+}
+
+.menu-price p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.menu-item:hover {
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.35);
+    transition: all 0.5s ease-out;
+}
+
+.menu-item:hover > .menu-checked {
+    width: 60px;
+    transition: all 0.4s ease-in-out;
+}
+
+.menu-item:hover > .menu-checked .fa-circle-check {
+    transform: rotate(360deg);
+    transition: all 0.4s ease-in-out;
+}
+
+.menu-checked {
+    background-color: #99e2d0;
+    width: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.fa-circle-check {
+    color: white;
+    transition: all 0.4s ease-in-out;
+   }
+
+   /* Menu Main Dish */
+
+   .menu-main-dish {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+    padding-bottom: 50px;
+}
+
+   /* Dessert */
+
+   .menu-dessert {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+    padding-bottom: 50px;
+   }
+
+   /* Menu CTA */
+
+   .menu-cta-container {
+    padding-bottom: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+
+   }
+
+   .menu-cta {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 20px 50px;
+    font-weight: 400;
+    border-radius: 5vmax;
+    background: rgb(147,86,220);
+    background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+    transition: all 0.5s ease-out;
+}
+
+    .menu-cta:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 12px 25px rgba(0,0,0,0.45);
+    transition: all 0.5s ease-out;
+}
+
+/* Animations */
+
+.slide-in-bottom-first {
+	-webkit-animation: slide-in-bottom 1s ease-out both;
+	        animation: slide-in-bottom 1s ease-out both;
+}
+
+
+ @-webkit-keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .slide-in-bottom-second {
+	-webkit-animation: slide-in-bottom 1s 0.25s ease-out both;
+	        animation: slide-in-bottom 1s 0.25s ease-out both;
+}
+
+
+ @-webkit-keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .slide-in-bottom-last {
+	-webkit-animation: slide-in-bottom 1s 0.50s ease-out both;
+	        animation: slide-in-bottom 1s 0.50s ease-out both;
+}
+
+
+ @-webkit-keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  
