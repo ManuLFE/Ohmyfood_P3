@@ -77,18 +77,17 @@ a.restaurant-card-link-text:visited {
     font-size: 70px;
     color: white;
     margin: 0;
-    
   }
 
   .my-element {
     background-color: rgb(147,86,220);
     background-image: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
-  background-size: 100%;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
     animation: grow 3s normal forwards;
   }
 
@@ -110,25 +109,25 @@ a.restaurant-card-link-text:visited {
     background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
   }
   
-  .uno {
+  .one {
     margin-right: -18px;
     transform-origin: center left;
     animation: spin 3s linear infinite;  
   }
   
-  .dos {
+  .two {
     transform-origin: center right;
     animation: spin2 3s linear infinite;
     animation-delay: .2s;
   }
   
-  .tres {
+  .three {
     transform-origin: center right;
     animation: spin3 3s linear infinite;
     animation-delay: .3s;
   }
   
-  .cuatro {
+  .four {
     transform-origin: center right;
     animation: spin4 3s linear infinite;
     animation-delay: .4s;
@@ -236,8 +235,6 @@ a.restaurant-card-link-text:visited {
     }
   }
 
-
-
 /*____________________Header____________________*/
 
 .header {
@@ -279,7 +276,6 @@ a.restaurant-card-link-text:visited {
 }
 
 /*____________________Section-Presentation____________________*/
-
 .presentation {
     background-color: #f6f6f6;
     display: flex;
@@ -321,9 +317,7 @@ a.restaurant-card-link-text:visited {
     transition: all 0.5s ease-out;
 }
 
-
 /*____________________Section-Functionning____________________*/
-
 .functionning {
     padding: 50px 20px;
 }
@@ -332,8 +326,7 @@ a.restaurant-card-link-text:visited {
         color: black;
         font-size: 26px;
         font-weight: 700;
-    }
-
+}
 
 .functionning-cards-container {
     display: flex;
@@ -364,7 +357,6 @@ a.restaurant-card-link-text:visited {
     color: #9356dc;
 }
 
-
 .functionning-card .steps {
     color: white;
     background-color: #9356dc;
@@ -389,12 +381,7 @@ a.restaurant-card-link-text:visited {
     padding: 0 20px;
 }
 
-/* .fa .fa-mobile-phone
-.fa .fa-list-ul
-.fas .fa-store */
-
 /*____________________MOBILE-Section-Functionning____________________*/
-
 @media screen and (max-width:768px) {
     .functionning-cards-container {
         display: flex;
@@ -409,14 +396,11 @@ a.restaurant-card-link-text:visited {
 
 }
 
-
 /*____________________Section-Restaurants____________________*/
-
 .restaurants {
     padding: 50px 20px;
     background-color: #f6f6f6;
 }
-
 
 .restaurant-card-link a {
     color: black;
@@ -525,7 +509,6 @@ a.restaurant-card-link-text:visited {
 }
 
 /*____________________MOBILE-Section-Restaurants____________________*/
-
 @media screen and (max-width:768px) {
     .restaurants-card-container {
         max-width: 90%;
@@ -535,7 +518,6 @@ a.restaurant-card-link-text:visited {
 }
 
 /*____________________Section-Footer____________________*/
-
 .footer {
     background-color: #353535;
     color: white;
@@ -583,9 +565,8 @@ a.restaurant-card-link-text:visited {
     flex-flow: column nowrap;
 }
 
-
+/*____________________MOBILE-Section-Footer____________________*/
 @media screen and (max-width:768px) {
-
     .footer-logo {
         display: block;
         margin-bottom: 10px;
@@ -595,6 +576,4 @@ a.restaurant-card-link-text:visited {
         flex-flow: column nowrap;
         gap: 0px;
     }
-
-
 }

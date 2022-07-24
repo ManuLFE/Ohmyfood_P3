@@ -1,6 +1,5 @@
 
-/* Menu Header */
-
+/*____________________Menu-Header____________________*/
 .header {
     height: 65px;
     min-width: 300px;
@@ -22,8 +21,7 @@
     max-height: 35px;
 }
 
-/* Menu Image */
-
+/*____________________Menu-Image____________________*/
 .menu-image {
     display: block;
     width: 100%;
@@ -33,8 +31,7 @@
     margin: 0 auto;
 }
 
-
-/* Menu Container */
+/*____________________Menu-Container____________________*/
 .full-menu-card-container {
     position: relative;
     top: -100px;
@@ -69,8 +66,8 @@
     width: 30px;
 }
 
-/* Menu Details */
-/* First Course */
+/*____________________Menu-Details____________________*/
+/*____________________Menu-First-Course____________________*/
 
 .menu-details-container {
     width: 100%;
@@ -105,7 +102,7 @@
     height  : 4px;
     width   : 30px;
     border-bottom: 3px solid #99e2d0;
-  }
+}
 
 .menu-item {
     display: flex;
@@ -187,10 +184,9 @@
 .fa-circle-check {
     color: white;
     transition: all 0.4s ease-in-out;
-   }
+}
 
-   /* Menu Main Dish */
-
+/*____________________Menu-Main-Dish____________________*/
    .menu-main-dish {
     display: flex;
     flex-flow: column nowrap;
@@ -198,24 +194,22 @@
     padding-bottom: 50px;
 }
 
-   /* Dessert */
-
+/*____________________Menu-Dessert____________________*/
    .menu-dessert {
     display: flex;
     flex-flow: column nowrap;
     gap: 15px;
     padding-bottom: 50px;
-   }
+}
 
-   /* Menu CTA */
-
+/*____________________Menu-CTA____________________*/
    .menu-cta-container {
     padding-bottom: 80px;
     display: flex;
     flex-flow: row nowrap;
     flex: 1;
 
-   }
+}
 
    .menu-cta {
     display: inline-block;
@@ -237,15 +231,13 @@
     transition: all 0.5s ease-out;
 }
 
-/* Animations */
-
+/*____________________Menu-Animations____________________*/
 .slide-in-bottom-first {
 	-webkit-animation: slide-in-bottom 1s ease-out both;
 	        animation: slide-in-bottom 1s ease-out both;
 }
 
-
- @-webkit-keyframes slide-in-bottom {
+@-webkit-keyframes slide-in-bottom {
     0% {
       -webkit-transform: translateY(100px);
               transform: translateY(100px);
@@ -256,9 +248,9 @@
               transform: translateY(0);
       opacity: 1;
     }
-  }
+}
 
-  @keyframes slide-in-bottom {
+@keyframes slide-in-bottom {
     0% {
       -webkit-transform: translateY(100px);
               transform: translateY(100px);
@@ -269,15 +261,14 @@
               transform: translateY(0);
       opacity: 1;
     }
-  }
+}
 
   .slide-in-bottom-second {
 	-webkit-animation: slide-in-bottom 1s 0.25s ease-out both;
 	        animation: slide-in-bottom 1s 0.25s ease-out both;
 }
 
-
- @-webkit-keyframes slide-in-bottom {
+@-webkit-keyframes slide-in-bottom {
     0% {
       -webkit-transform: translateY(100px);
               transform: translateY(100px);
@@ -288,9 +279,9 @@
               transform: translateY(0);
       opacity: 1;
     }
-  }
+}
 
-  @keyframes slide-in-bottom {
+@keyframes slide-in-bottom {
     0% {
       -webkit-transform: translateY(100px);
               transform: translateY(100px);
@@ -301,15 +292,14 @@
               transform: translateY(0);
       opacity: 1;
     }
-  }
+}
 
   .slide-in-bottom-last {
 	-webkit-animation: slide-in-bottom 1s 0.50s ease-out both;
 	        animation: slide-in-bottom 1s 0.50s ease-out both;
 }
 
-
- @-webkit-keyframes slide-in-bottom {
+@-webkit-keyframes slide-in-bottom {
     0% {
       -webkit-transform: translateY(100px);
               transform: translateY(100px);
@@ -320,9 +310,9 @@
               transform: translateY(0);
       opacity: 1;
     }
-  }
+}
 
-  @keyframes slide-in-bottom {
+@keyframes slide-in-bottom {
     0% {
       -webkit-transform: translateY(100px);
               transform: translateY(100px);
@@ -333,6 +323,6 @@
               transform: translateY(0);
       opacity: 1;
     }
-  }
+}
 
   
