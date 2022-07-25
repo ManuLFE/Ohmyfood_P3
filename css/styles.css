@@ -534,7 +534,7 @@ a.restaurant-card-link-text:visited {
 
 .footer img {
     width: 100px;
-    filter: invert();
+    filter: invert(1);
     margin: 0 auto;
 }
 
